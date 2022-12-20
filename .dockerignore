@@ -1,1 +1,7 @@
-.idea/
+# Ignore everything
+*
+
+# Whitelist required files
+!Dockerfile
+!README.md
+!security.conf
