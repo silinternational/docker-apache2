@@ -1,4 +1,4 @@
-FROM silintl/ubuntu:21.04
+FROM silintl/ubuntu:22.04
 MAINTAINER "Phillip Shipley" <phillip_shipley@sil.org>
 
 ENV REFRESHED_AT 2019-09-06
