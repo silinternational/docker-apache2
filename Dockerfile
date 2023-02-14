@@ -7,6 +7,7 @@ ENV HTTPD_PREFIX /etc/apache2
 # Install apache2
 RUN apt-get update -y \
 	&& apt-get install -y \
+        openssl \
 		apache2
 
 # Remove default site, configs, and mods not needed
